@@ -1,0 +1,20 @@
+Vagrant.configure("2") do |config|
+  	config.vm.box = "precise64.box"
+  	config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+	config.vm.network "forwarded_port", guest: 80, host: 8081
+	config.vm.network "forwarded_port", guest: 8080, host: 8082
+    
+   	#config.vm.provision "shell", path: "scripts/0-update.sh"
+    	#config.vm.provision "shell", path: "scripts/1-apache2.sh"
+    	#config.vm.provision "shell", path: "scripts/2-mysql-server.sh"
+	#config.vm.provision "shell", path: "scripts/3-java8.sh" 
+	#config.vm.provision "shell", path: "scripts/4-tomcat.sh" 
+	#config.vm.provision "shell", path: "scripts/5-release.sh"
+	#config.vm.provision "shell", path: "scripts/6-deploy.sh"
+
+	config.vm.provider :virtualbox do |vb|
+    	vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    	vb.customize ["modifyvm", :id, "--memory", 512]
+    	vb.customize ["modifyvm", :id, "--name", "cobranca"]
+	end
+end
