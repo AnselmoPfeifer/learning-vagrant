@@ -8,5 +8,3 @@
 - vagrant up --provision // Liga a instancia e Executa o provision
 - vagrant ssh // Obtem acesso ssh a instancia
 
-
-Anselmo Pfeifer 07/2016
