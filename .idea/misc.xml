@@ -7,8 +7,8 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectDictionaryState">
-    <dictionary name="anselmo" />
+  <component name="ParserProjectConfiguration">
+    <class-path />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -43,7 +43,6 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="$PROJECT_DIR$/../../../IntelliJ.Dictionary" Dictionaries="0" />
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">

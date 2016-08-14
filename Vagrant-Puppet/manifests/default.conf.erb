@@ -1,0 +1,22 @@
+#Genereted by chef to apache2
+<VirtualHost *:80>
+  ServerName dev.teste.com.br
+  ServerAlias dev.teste.com.br
+
+  LogLevel warn
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+  DocumentRoot /var/www/
+
+  ErrorDocument 500 /errors/50x.html
+  ErrorDocument 502 /errors/50x.html
+  ErrorDocument 503 /errors/50x.html
+  ErrorDocument 403 /errors/40x.html
+  ErrorDocument 404 /errors/40x.html
+
+  ProxyPass /errors !
+  ProxyErrorOverride On
+  ProxyPass        / http://localhost:8080/ nocanon
+  ProxyPassReverse / http://localhost:8080/
+</VirtualHost>
