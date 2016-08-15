@@ -2,7 +2,7 @@ exec { 'apt-update':
   command => '/usr/bin/apt-get update'
 }
 package {
-  ["openjdk-8-jre","tomcat8", "mysql-server", "php", "apache2", "htop", "git"]:
+  ["openjdk-8-jre", "tomcat8", "mysql-server", "php", "apache2", "htop", "git"]:
     ensure => installed,
     require => Exec["apt-update"]
 }
@@ -86,8 +86,10 @@ file { '/var/www/html/info.php':
 }
 
 exec { 'remove_app':
-  command => '/bin/cp /tmp/ROOT.war /var/lib/tomcat8/webapps/ROOT.war'
+  #command => '/bin/cp /tmp/ROOT.war /var/lib/tomcat8/webapps/ROOT.war'
+  command => '/bin/cp /vagrant/manifests/ROOT.war /var/lib/tomcat8/webapps/ROOT.war'
 }
+
 #file { "/var/lib/tomcat8/webapps/ROOT.war":
 #  source => "/tmp/ROOT.war",
 #  ensure => file,
@@ -96,40 +98,3 @@ exec { 'remove_app':
 #  require => Package["tomcat8"],
 #  notify => Service["tomcat8"]
 #}
-
-#  file { '/etc/apache2/mods-enabled/userdir.load':
-#    ensure => 'link',
-#    target => '/etc/apache2/mods-available/userdir.load',
-#    notify => Service["apache2"],
-#    require => Package["apache2"],
-#  }
-#  file { '/etc/apache2/mods-enabled/userdir.conf':
-#    ensure => 'link',
-#    target => '/etc/apache2/mods-available/userdir.conf',
-#    notify => Service["apache2"],
-#    require => Package["apache2"],
-#  }
-#  exec { 'link_sites':
-#    command => '/bin/ln -s /etc/apache2/sites-available/default.conf /etc/apache2/sites-enabled/default.conf',
-#    notify => Service["apache2"],
-#  }
-#  exec { 'remove_sites_enabled':
-#    command => '/bin/rm -rf /etc/apache2/sites-enabled/000* /etc/apache2/sites-available/000*'
-#  }
-
-#exec { 'link_sites':
-#  command => '/bin/ln -s /etc/apache2/sites-available/default.conf /etc/apache2/sites-enabled/default.conf',
-#  notify => Service["apache2"],
-#}
-
-
-
-
-#
-#class absent_file_exec {
-#  exec { 'download':
-#    command => '/usr/bin/wget -q http://github.com/alura-cursos/provisionamento-com-vagrant-e-puppet/raw/master/manifests/vraptor-musicjungle.war -O /tmp/ROOT.war',
-#    creates => '/tmp/ROOT.war'
-#  }
-#}
-#
