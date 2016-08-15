@@ -7,5 +7,3 @@
 
 - sudo puppet apply /vagrant/manifests/default.pp
 - sudo puppet apply --test
-
-

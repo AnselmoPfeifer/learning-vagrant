@@ -98,3 +98,6 @@ exec { 'remove_app':
 #  require => Package["tomcat8"],
 #  notify => Service["tomcat8"]
 #}
+# TODO
+# Falta fazer a instalacao do tomcat7 via download
+# http://ftp.unicamp.br/pub/apache/tomcat/tomcat-7/v7.0.70/bin/apache-tomcat-7.0.70.zip
