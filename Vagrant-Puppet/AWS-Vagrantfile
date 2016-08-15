@@ -24,7 +24,8 @@ Vagrant.configure(2) do |config|
     web_config.vm.provision "shell", path: "manifests/bootstrap.sh"
 
     web_config.vm.provision "puppet" do |puppet|
-    puppet.manifest_file = "web.pp"
+      puppet.options = "--verbose --debug"
+      puppet.manifests_path = "manifests"
     end
 
     web_config.vm.provider :aws do |aws|
