@@ -5,7 +5,7 @@ set -e -x
 if which puppet > /dev/null ; then
 	echo "Puppet is already installed"
 	exit 0
-	else
+else
 	export DEBIAN_FRONTEND=noninteractive
 	wget -qO /tmp/puppetlabs-release-pc1-xenial.deb https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
 	sudo dpkg -i /tmp/puppetlabs-release-pc1-xenial.deb
