@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cebb8c5-923f-4796-8418-152359c169cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Vagrant-Puppet/manifests/ROOT.war" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Vagrant-Puppet/manifests/default.conf.erb" afterPath="$PROJECT_DIR$/Vagrant-Puppet/manifests/default.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrant-Puppet/Exemple-VagrantFile" afterPath="$PROJECT_DIR$/Vagrant-Puppet/Exemple-VagrantFile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrant-Puppet/manifests/bootstrap.sh" afterPath="$PROJECT_DIR$/Vagrant-Puppet/manifests/bootstrap.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrant-Puppet/manifests/default.pp" afterPath="$PROJECT_DIR$/Vagrant-Puppet/manifests/default.pp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="learning-vagrant.iws" />
@@ -31,51 +24,7 @@
     <favorites_list name="learning-vagrant" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="default.pp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/manifests/default.pp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exemple-VagrantFile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/Exemple-VagrantFile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17830609">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/manifests/default.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,9 +54,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Vagrant-Puppet/manifests/bootstrap.sh" />
         <option value="$PROJECT_DIR$/Vagrant-Puppet/manifests/default.conf" />
-        <option value="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" />
         <option value="$PROJECT_DIR$/Vagrant-Puppet/manifests/default.pp" />
         <option value="$PROJECT_DIR$/Vagrant-Puppet/Exemple-VagrantFile" />
+        <option value="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" />
       </list>
     </option>
   </component>
@@ -694,7 +643,7 @@
       <workItem from="1471135156560" duration="641000" />
       <workItem from="1471135801355" duration="7284000" />
       <workItem from="1471146092537" duration="4279000" />
-      <workItem from="1471219548812" duration="9444000" />
+      <workItem from="1471219548812" duration="9904000" />
     </task>
     <task id="LOCAL-00001" summary="Ajuste de arquivos e add vagrant-puppet">
       <created>1471135540227</created>
@@ -726,11 +675,17 @@
       <option name="project" value="LOCAL" />
       <updated>1471151324067</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finalizando o curso de vagrant na alura.">
+      <created>1471232402897</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1471232402897</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21648000" />
+    <option name="totallyTimeSpent" value="22108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -738,6 +693,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -761,7 +717,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -772,7 +727,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Ajuste de arquivos e add vagrant-puppet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste de arquivos e add vagrant-puppet" />
+    <MESSAGE value="Finalizando o curso de vagrant na alura." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando o curso de vagrant na alura." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -961,18 +917,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/manifests/default.conf">
+    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/Exemple-VagrantFile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/manifests/default.pp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.42347696">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -982,21 +930,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3846154">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/Exemple-VagrantFile">
+    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/manifests/default.pp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17830609">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.2">
+          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/manifests/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42735043">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
