@@ -3,6 +3,10 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu_awss"
   config.vm.box_url = "https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box"
 
+  config.puppet_install.puppet_version = :latest
+  #config.puppet_install.puppet_version = "2.7.11"
+  #config.puppet_install.install_url = 'http://acme.com/install.sh'
+
   config.vm.provider :aws do |aws, override|
     aws.access_key_id = "SEU_ACCESS_KEY_ID"
     aws.secret_access_key = "SEU_SECRET_ACCESS_KEY"

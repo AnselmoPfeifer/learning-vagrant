@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cebb8c5-923f-4796-8418-152359c169cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrant-Puppet/AWS-VagrantFile.rb" afterPath="$PROJECT_DIR$/Vagrant-Puppet/AWS-VagrantFile.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="learning-vagrant.iws" />
@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1923077">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AWS-VagrantFile.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/AWS-VagrantFile.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17094018">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -87,8 +97,8 @@
         <option value="$PROJECT_DIR$/Vagrant-Puppet/README.md" />
         <option value="$PROJECT_DIR$/Vagrant-Puppet/Exemple-VagrantFile" />
         <option value="$PROJECT_DIR$/Vagrant-Puppet/VagrantFile.rb" />
-        <option value="$PROJECT_DIR$/Vagrant-Puppet/AWS-VagrantFile.rb" />
         <option value="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" />
+        <option value="$PROJECT_DIR$/Vagrant-Puppet/AWS-VagrantFile.rb" />
       </list>
     </option>
   </component>
@@ -711,7 +721,7 @@
       <workItem from="1471146092537" duration="4279000" />
       <workItem from="1471219548812" duration="9918000" />
       <workItem from="1471294718725" duration="896000" />
-      <workItem from="1471296070177" duration="762000" />
+      <workItem from="1471296070177" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="Ajuste de arquivos e add vagrant-puppet">
       <created>1471135540227</created>
@@ -779,11 +789,17 @@
       <option name="project" value="LOCAL" />
       <updated>1471296685180</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finalizando o curso de vagrant na alura.">
+      <created>1471296835860</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1471296835860</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23780000" />
+    <option name="totallyTimeSpent" value="23803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1047,17 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/AWS-VagrantFile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64635956">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1077,10 +1082,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1923077">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="67" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrant-Puppet/AWS-VagrantFile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17094018">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
