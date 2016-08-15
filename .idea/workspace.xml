@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cebb8c5-923f-4796-8418-152359c169cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" afterPath="$PROJECT_DIR$/Vagrant-Puppet/Vagrantfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="learning-vagrant.iws" />
@@ -643,7 +642,7 @@
       <workItem from="1471135156560" duration="641000" />
       <workItem from="1471135801355" duration="7284000" />
       <workItem from="1471146092537" duration="4279000" />
-      <workItem from="1471219548812" duration="9904000" />
+      <workItem from="1471219548812" duration="9918000" />
     </task>
     <task id="LOCAL-00001" summary="Ajuste de arquivos e add vagrant-puppet">
       <created>1471135540227</created>
@@ -681,11 +680,17 @@
       <option name="project" value="LOCAL" />
       <updated>1471232402897</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finalizando o curso de vagrant na alura.">
+      <created>1471233033985</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1471233033985</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22108000" />
+    <option name="totallyTimeSpent" value="22122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
