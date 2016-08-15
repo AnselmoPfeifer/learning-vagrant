@@ -1,11 +1,1 @@
 .idea/
-.gitignore
-Apache2-Tomcat-MySQL/files/java/
-Apache2-Tomcat-MySQL/files/tomcat/
-Apache2-Tomcat-MySQL/files/usr/
-Apache2-Tomcat-MySQL/public/
-Deploy-Blue-Green/public/
-Nginx-Wildfly-PostgreSQL/files/java/
-Nginx-Wildfly-PostgreSQL/files/tomcat/
-Nginx-Wildfly-PostgreSQL/files/wildfly/
-Vagrant-Puppet/manifests/ROOT.war
